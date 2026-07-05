@@ -27,9 +27,18 @@ html{scroll-behavior:smooth}
 body{font-family:'Cabinet Grotesk',sans-serif;background:var(--cream);color:var(--ink);overflow-x:hidden}
 h1,h2,h3,h4{font-family:'Clash Display',sans-serif;line-height:1.1}
 
-/* ─── CURSOR ─── */
-.cursor{position:fixed;width:10px;height:10px;background:var(--fire);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:transform 0.1s;mix-blend-mode:multiply}
-.cursor-ring{position:fixed;width:36px;height:36px;border:1.5px solid var(--fire);border-radius:50%;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);transition:all 0.18s ease;opacity:0.6}
+/* ─── LOCATION ─── */
+.location-link a{
+  color:rgba(255, 255, 255, 0.729);font-size:13px;
+  text-decoration:none;transition:color 0.2s;
+  font-weight:500;
+}
+
+.location-link a:hover{
+  color:rgba(255, 255, 255, 0.6);
+  text-decoration:underline;
+}
+
 
 /* ─── NAV ─── */
 nav{
@@ -653,7 +662,7 @@ footer{background:var(--ink);padding:70px 6% 30px;border-top:1px solid rgba(255,
         <div class="trust-item"><div class="trust-check">✓</div> Zero Hidden Charges — Ever</div>
         <div class="trust-item"><div class="trust-check">✓</div> New Customer 10% Off</div>
         <div class="card-divider"></div>
-        <div class="trust-item" style="align-items:flex-start"><div class="trust-check" style="margin-top:2px">📍</div><span>3014 Ubi Road 1, #01-298, Kampong Ubi Industrial Estate, S 408702</span></div>
+        <div class="trust-item" style="align-items:flex-start"><div class="trust-check" style="margin-top:2px">📍</div><span class = "location-link"><a href="https://www.google.com/maps/place/3Sixty+Inspectors+Pte.+Ltd./@1.3302215,103.8946016,3a,75y,302.04h,95.46t/data=!3m7!1e1!3m5!1sAvhCV0Z1xzTaM1roA-Av4Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-5.456545683896053%26panoid%3DAvhCV0Z1xzTaM1roA-Av4Q%26yaw%3D302.0387623529439!7i16384!8i8192!4m6!3m5!1s0x31da103fe1c3c8b9:0x92ac4340f66c5d1a!8m2!3d1.3302004!4d103.8943205!16s%2Fg%2F11c1wsbvdm?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">3014 Ubi Road 1, #01-298, Kampong Ubi Industrial Estate, S 408702</a></span></div>
       </div>
     </div>
   </div>
